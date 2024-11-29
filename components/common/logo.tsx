@@ -1,7 +1,7 @@
 import React from "react";
 
 interface LogoProps {
-  className: string;
+  className?: string;
 }
 
 const Logo = ({ className }: LogoProps) => {

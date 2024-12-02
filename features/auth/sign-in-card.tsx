@@ -19,7 +19,7 @@ import { Form } from "@/components/ui/form";
 import { Separator } from "@/components/ui/separator";
 import FormInput from "@/components/form/input";
 import { sleep } from "@/lib/utils";
-import { signInSchmea } from "./authSechma";
+import { signInSchmea } from "./authSechmas";
 
 type formValues = z.infer<typeof signInSchmea>;
 

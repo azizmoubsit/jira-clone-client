@@ -20,7 +20,7 @@ import { Separator } from "@/components/ui/separator";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { sleep } from "@/lib/utils";
 import { Form } from "@/components/ui/form";
-import { signUpSchmea } from "./authSechma";
+import { signUpSchmea } from "./authSechmas";
 
 export const SignUpCard = () => {
   const form = useForm<z.infer<typeof signUpSchmea>>({
